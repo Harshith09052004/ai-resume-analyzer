@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis History</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#f4f4f4;
+            padding:40px;
+        }
+
+        .container{
+            max-width:900px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:20px;
+        }
+
+        th, td{
+            padding:15px;
+            border-bottom:1px solid #ddd;
+            text-align:left;
+        }
+
+        th{
+            background:#0072ff;
+            color:white;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Your Analysis History</h1>
+
+        <table>
+
+            <tr>
+                <th>Resume</th>
+                <th>ATS Score</th>
+                <th>Date</th>
+            </tr>
+
+            {% for analysis in analyses %}
+
+            <tr>
+
+                <td>
+                    {{ analysis.filename }}
+                </td>
+
+                <td>
+                    {{ analysis.ats_score }}%
+                </td>
+
+                <td>
+                    {{ analysis.created_at }}
+                </td>
+
+            </tr>
+
+            {% endfor %}
+
+        </table>
+
+    </div>
+
+</body>
+</html>

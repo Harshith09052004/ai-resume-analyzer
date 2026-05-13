@@ -1,0 +1,32 @@
+Software Engineer Intern
+
+We are looking for a motivated Software Engineer Intern with strong problem-solving skills and experience in full-stack development and cloud technologies.
+
+Required Skills:
+
+* Python
+* SQL
+* AWS
+* Flask
+* HTML
+* CSS
+* JavaScript
+* React
+* Docker
+* DBMS
+* Data Structures
+
+Preferred Skills:
+
+* Machine Learning
+* MongoDB
+* Kubernetes
+
+Responsibilities:
+
+* Develop scalable web applications
+* Build REST APIs using Flask
+* Work with cloud deployment on AWS
+* Collaborate with frontend and backend teams
+* Optimize application performance
+* Maintain databases and server-side logic
