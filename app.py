@@ -183,7 +183,8 @@ def home():
                 report_path,
                 ats_score,
                 matching_skills,
-                missing_skills
+                missing_skills,
+                suggestions
             )
 
             report_ready = True
